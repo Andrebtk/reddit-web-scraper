@@ -71,7 +71,7 @@ def url_save(url, i, directory):
 
 
 
-def parser(maxMeme, driver, directory):
+def scrape(maxMeme, driver, directory):
 
 
 
