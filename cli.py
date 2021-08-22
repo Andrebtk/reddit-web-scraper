@@ -43,6 +43,7 @@ while True:
                         -sub "[your subreddit]"
                         -n [number of meme you want to download]
                         -di [directory where you want the post to be download]
+                        the with and / in the folder or it will not work
         """
         print(function)
 
@@ -63,3 +64,4 @@ while True:
         driver = reddit.init_driver()
         reddit.main(sub,driver)
         reddit.parser(n,driver, di+"/")
+        reddit.pngToJpg(di)
