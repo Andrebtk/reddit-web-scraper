@@ -47,7 +47,7 @@ while True:
         """
         print(function)
 
-    if "parser" in command :
+    if "scraper" in command :
 
         
         parsed = command.split()
@@ -63,5 +63,5 @@ while True:
 
         driver = reddit.init_driver()
         reddit.main(sub,driver)
-        reddit.parser(n,driver, di+"/")
+        reddit.scape(n,driver, di+"/")
         reddit.pngToJpg(di)
