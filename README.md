@@ -13,7 +13,7 @@ pip install urllib3
 pip install beautifulsoup4
 pip install Pillow
 ```
-# You need to install the latest version of geckodriver depending on your os and add it to your executable PATH
+You need to install the latest version of geckodriver depending on your os and add it to your executable PATH
 
 ## Usage
 ```bash
