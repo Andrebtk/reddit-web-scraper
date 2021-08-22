@@ -1,8 +1,0 @@
-ssh pi@192.168.1.37 cd memeBot ; DISPLAY=:0 python3 -c 'from function import *; *command*'
-
-command:
-    sub(),
-    post_publication(),
-    del_post(),
-    clean(),
-    main(),
