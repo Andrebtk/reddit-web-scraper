@@ -1,6 +1,7 @@
 # reddit_parser [BETA]
 
-this is a beta of an reddit parser
+this is a beta of an reddit parser coded in python
+
 
 
 ## Installation
