@@ -1,4 +1,4 @@
-# reddit_parser [BETA]
+# reddit_scraper [BETA]
 
 this is a beta of an reddit parser coded in python
 
@@ -20,7 +20,7 @@ then
 
 ```bash
 
-user@reddit_parser:~$ parser -sub https://www.reddit.com/r/HolUp/ -n 5 -di newMeme/
+user@reddit_parser:~$ scraper -sub https://www.reddit.com/r/HolUp/ -n 5 -di newMeme/
 ```
 -sub -> the subreddit you want to download from
 
