@@ -25,14 +25,7 @@ def init_driver():
     return driver
 
 def main(sub, driver):
-    """
-    if len(sys.argv) != 3:
-        print("[!]usage -> python reddit.py [subredit url] [number of meme]")
-        sys.exit(1)
-    """
 
-    #meme_url = sys.argv[1]
-    #maxMeme = int(sys.argv[2])
     meme_url=sub
 
     meme_url3 = "https://www.reddit.com/r/pcmasterrace/"
@@ -49,28 +42,11 @@ def pngToJpg(directory):
     files = os.listdir(directory)    
     for file in files:
         if ".png" in file:
-            im = Image.open(file)
+            im = Image.open(directory + file)
             newImage = im.convert('RGB')
             newImage.save(file+".jpg")
-            os.system('rm '+ file)
+            os.system('rm '+directory+ file)
             print("[!]deleted -> " + file)
-            """
-            file2 = file.replace(".png",".jpg")
-            im1.save(r'newMeme/' + file2)
-            os.system('rm newMeme/' + file)
-            print("done")
-            """
-
-
-    
-
-
-
-
-def ftp_transfer():
-    with pysftp.Connection('192.168.1.42', username="pi", password='raspberry') as sftp:
-         print("made it")
-
 
 def url_save(url, i, directory):
     try: 
@@ -141,10 +117,5 @@ def parser(maxMeme, driver, directory):
             
             url_save(memeImage['src'], title, directory + "/")    
         
-
-        
-
-        #print("title -> " + str(title))
-        #print("memeUrlFather ->" + str(memeUrlFather))
 
     
