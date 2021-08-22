@@ -24,7 +24,9 @@ pip install Pillow
 You need to install the latest version of geckodriver depending on your os and add it to your executable PATH
 
 [Linux] -> https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz.asc
+
 [Windowd] -> https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-win64.zip
+
 [Mac] -> https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
 
 website where you can sell all version: https://github.com/mozilla/geckodriver/releases
