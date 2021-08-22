@@ -11,7 +11,7 @@ pip install beautifulsoup4
 pip install Pillow
 ```
 
-##Usage
+## Usage
 ```bash
 python3 cli.py
 ```
