@@ -16,6 +16,7 @@ pip install Pillow
 ```bash
 python3 cli.py
 ```
+then
 
 ```bash
 
