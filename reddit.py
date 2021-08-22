@@ -7,7 +7,6 @@ import time
 import urllib.request
 from bs4 import BeautifulSoup
 import os
-import time
 from ftplib import FTP
 import pysftp
 from PIL import Image
