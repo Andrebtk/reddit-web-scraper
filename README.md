@@ -29,4 +29,4 @@ user@reddit_parser:~$ parser -sub https://www.reddit.com/r/HolUp/ -n 5 -di newMe
 -di -> the directory where you want the post to be download (add / at the end [IMPORTANT])
 
 ## Other usage
-you can directly use the reddit.py as an librarry and use the function inside
+you can directly use the reddit.py as an library and use the function inside
