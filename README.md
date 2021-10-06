@@ -1,4 +1,4 @@
-# reddit_scraper [BETA]
+# reddit scraper [BETA]
 
 this is a beta of an reddit scraper coded in python
 
