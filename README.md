@@ -3,6 +3,7 @@
 this is a beta of an reddit scraper coded in python
 
 [!] mainly tested on linux, using it on other os may need litle fix's
+
 [!] Only work's with images and not videos
 
 execute python3 cli.py to have a command line interface or you can directly use the function inside of reddit.py
