@@ -14,7 +14,6 @@ while True:
 
     command = str(input(term))
     
-    print(command)
     if command == "help":
         
         function="""[!]list of all function/command: 
