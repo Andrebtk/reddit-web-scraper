@@ -38,7 +38,8 @@ while True:
         for other function see reddit.py source code !
 
 
-        [!]parser command usage: ->
+        [!] in the CLI
+        parser command usage: ->
                         -sub "[your subreddit]"
                         -n [number of meme you want to download]
                         -di [directory where you want the post to be download]
@@ -62,5 +63,5 @@ while True:
 
         driver = reddit.init_driver()
         reddit.main(sub,driver)
-        reddit.scape(n,driver, di+"/")
+        reddit.scrape(n,driver, di+"/")
         reddit.pngToJpg(di)

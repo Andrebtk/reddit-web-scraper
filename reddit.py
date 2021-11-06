@@ -87,27 +87,36 @@ def scrape(maxMeme, driver, directory):
 
 
     for data in memeData:
+        #print(data.get_attribute("innerHTML") + "\n\n\n")
         html = data.get_attribute("innerHTML")
         
         
         soup = BeautifulSoup(html, 'lxml')
+        #print(soup)
         title = soup.find('h3',class_="_eYtD2XCVieq6emjKBH3m")
         creator = soup.find('a',class_="_2tbHP6ZydRpjI44J3syuqC")
         
         memeUrlFather = soup.find("div", class_="_3JgI-GOrkmyIeDeyzXdyUD")
+
+        #if memeUrlFather is None: break
+        """print(memeUrlFather)
+        print("\n\n\n")
+        print(title)
+        print("\n\n\n")
+        print(creator)
+        print("\n\n\n")"""
         
         if title is None: break
         
-        memeVideo = memeUrlFather.find('source')
+        #memeVideo = memeUrlFather.find('source')
         memeImage = soup.find('img', class_="_2_tDEnGMLxpM6uOa2kaDB3")
-
         title = title.get_text()
 
-        
+        """
         if memeVideo is not None : 
 
             print("[!]Downloading meme -> this meme is a video -> not implemented")
-
+        """
         if memeImage is not None :
             print("[!]Downloading meme -> this meme is a photo")
 
